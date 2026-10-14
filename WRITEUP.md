@@ -1,17 +1,17 @@
 # COMP 440 HW2: Whose Preferences Count?
 
-**Name:** XXXX
-**Date:** XXXX
+**Name:** Laurice Jimu
+**Date:** 2026-10-14
 
 ## Part 0: Set up
 
 ### Step B: What an MCP server is and why it's useful
 
-XXXX
+An MCP server is a server that allows integration between AI models and external sites that usually needs an API. It's like the interpreter between the AI models which essentially allows them to be Agents who can now do several things on external servers like book flights, send emails etc. It's a new standard.
 
 ### Step B: Why not paste code into Colab yourself
 
-XXXX
+Because it saves time, you can just stay in the claude code workspace and not have to swap back and forth. It also reduces errors
 
 ### Step D: How the MCP server connects Claude Code to Colab
 
