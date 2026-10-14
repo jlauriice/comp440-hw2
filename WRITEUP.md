@@ -15,7 +15,7 @@ Because it saves time, you can just stay in the claude code workspace and not ha
 
 ### Step D: How the MCP server connects Claude Code to Colab
 
-XXXX
+I type it on my keyboard onto Claude Code. Claude Code connects to the MCP server via the internet capabilities it has. The MCP server then translates what Claude Code gave it into understandable language for Google Colab, then Google Colab executes that and returns a response to the MCP that brings back info to Claude Code all in the space of seconds.
 
 ## Part 1: The tools and the tests
 
