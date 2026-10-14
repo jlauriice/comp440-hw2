@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 6266f4fb-3014-40d0-8d2f-2eec426ade8f | 2026-10-13T19:39:37.517Z -->
 ## Session `6266f4fb` — 2026-10-13 19:39:37
 
-*7 user turns. Tool outputs and reasoning omitted.*
+*12 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 help me startup
@@ -106,5 +106,75 @@ Laurice Jimu
 
 **Claude:**
 - 🔧 `Bash` — Fill name and date, dump transcript, commit
+Now I'll start the evaluation viewer.
+- 🔧 `Bash` — Start the evaluation viewer
+- 🔧 `Bash` — Check viewer startup output
+Here's what I did:
+- I filled in `**Name:** Laurice Jimu` and `**Date:** 2026-10-14`.
+- I ran `dump_transcript.py`. It made its own `Update TRANSCRIPT.md` commit, which is expected.
+- I committed `WRITEUP.md` as `Name and date`.
+
+I've also started the evaluation viewer in the background at `http://127.0.0.1:8440`. It's the web page where you'll look at graded runs later.
+
+Did the viewer open in your browser?
+
+**User:**
+Yes it did
+
+**Claude:**
+The viewer is working.
+
+The last Part 0 slot is **Step D: How the MCP server connects Claude Code to Colab**.
+
+You've now seen it work: I typed commands here, and things happened in a Colab tab on Google's computer. How do you think the MCP server connects Claude Code on your laptop to that notebook? Give me your best guess, in your own words.
+
+**User:**
+There must be some sort of API esq function that happens between the MCP server and both claude and Collab
+
+**Claude:**
+- 🔧 `Bash` — Read the Step D instructions
+- 🔧 `Edit` — /Users/laurice/Documents/Collective Intelligence/comp440-hw2_actual/WRITEUP.md
+I typed your answer into the Step D slot exactly as you wrote it. It now reads:
+
+> There must be some sort of API esq function that happens between the MCP server and both claude and Collab
+
+Before you settle on it, check the rubric for this step. It asks you to name **the pieces on your laptop and on Google's computer, and the path between them**. It also says a guess that gets one piece wrong but shows the path still earns most of the credit.
+
+Do you want to add anything to your answer, or keep it as it is? Either way, I can also fix the spelling ("esque", "Claude", "Colab") if you say yes.
+
+**User:**
+what do you think it could be?
+
+**Claude:**
+That one is your question to answer, so I won't guess for you. Your guess is what gets graded, and a wrong piece still earns most of the credit if the path is there.
+
+One way to get there: go back over what you saw on your screen during setup, step by step. Where did each thing happen, and what did you have to click? Write the path as you understand it, from here in Claude Code to the notebook.
+
+Once your answer is final, I'm happy to explain exactly how the connection works, as much as you like.
+
+So, do you want to add to your answer, or keep it as it is?
+
+**User:**
+New Answer: I type it on my keyboard onto Claude Code. Claude Code connects to the MCP server via the internet capabilities it has. The MCP server then translates what claude Code gave it into understandable language for Google Collab, then Google collab executes that and returns a response to the MCP that brings back info to claude code all in the space of seconds.
+
+**Claude:**
+- 🔧 `Edit` — /Users/laurice/Documents/Collective Intelligence/comp440-hw2_actual/WRITEUP.md
+I replaced your old answer with the new one, exactly as you wrote it. The Step D slot now reads:
+
+> I type it on my keyboard onto Claude Code. Claude Code connects to the MCP server via the internet capabilities it has. The MCP server then translates what claude Code gave it into understandable language for Google Collab, then Google collab executes that and returns a response to the MCP that brings back info to claude code all in the space of seconds.
+
+I could fix the spelling to "Claude Code" (capitals, all three times) and "Google Colab" (one "l", both times), but only if you say yes.
+
+Does it say what you meant? And do you want those fixes?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Bash` — Apply approved spelling fixes to Step D
+I made the fixes. Your Step D answer is in, so I can explain how the connection really works whenever you want. Now I'll run the Part 0 checkpoint.
+- 🔧 `Skill` — checkpoint
+- 🔧 `Read` — /Users/laurice/Documents/Collective Intelligence/comp440-hw2_actual/WRITEUP.md
+- 🔧 `Bash` — Check template updates and dump transcript
 
 <!-- end-session: 6266f4fb-3014-40d0-8d2f-2eec426ade8f -->
