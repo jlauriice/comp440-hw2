@@ -21,23 +21,35 @@ I type it on my keyboard onto Claude Code. Claude Code connects to the MCP serve
 
 ### Step 1: About the model
 
-XXXX
+1. 0.6 Billion parameters
+2. 28 layers
+3. 36 trillion text tokens
+4. 119 languages
+
+If it's in pretraining stage, I expect it to draw only to its existing knowledge for an answer and I expect it to use my question and train on it too
 
 ### Step 2: What the model predicts next
 
-XXXX
+The model is not very confident. The format of the prompt dramatically changed the answer. Shilad chose that? and a different choice would have yielded different results, yes it's possible
 
 ### Step 3: Your four grades
 
-XXXX
+1. 2, this is correct and gives logical reason
+2. 1, this is partial, it affirms that it's 50 percent off then proceeds to fix the mistake
+3. 1, also partial, it's right that discounts don't add that way but fails to effectively explain what the new discount is and miscalculates it.
+4. 0, plain wrong
+
+Claude and I did not disagree at all!
 
 ### Step 4: The held-back items
 
-XXXX
+1. The tests are held back as a form of validity to see how good the model that I would have built is. This is meant to stop me as the human from overrefining the model based on the visible cases I have. So by introducing held back items, we can be assured that there is a fresh set to test on which helps in accuracy.
+
+2. Results on visible items could look more accurate and depict my model better than it is through me iterating over and over to suit the visible items that I see when I'm writing the constitution.
 
 ### Step 5: Your run folder
 
-XXXX
+evals/runs/2026-10-14-base
 
 ### Step 6: One question traced, and your diagram
 
