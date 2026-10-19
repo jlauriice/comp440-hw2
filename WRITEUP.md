@@ -53,7 +53,14 @@ evals/runs/2026-10-14-base
 
 ### Step 6: One question traced, and your diagram
 
-XXXX (type the diagram here, or add an image of it to the repository and link it here)
+Question: facts-112
+1. The question and the answer Claude was told to accept: evals/shared/facts.jsonl
+2. The base model's answer: evals/runs/2026-10-14-base/responses/base.jsonl
+3. Claude's grade and its reason: evals/runs/2026-10-14-base/grades/sonnet-low/grades.jsonl
+4. The rules Claude followed: .claude/agents/eval-grader.md. Sonnet did the grading: evals/runs/2026-10-14-base/grades/sonnet-low/grader.json
+5. The same question in the viewer: http://127.0.0.1:8440/#/run/2026-10-14-base/answers
+
+{item file} lives on my computer and on github simultaneously → {Colab} claude sends it to colab and now it lives on Google's computer → the model's answer - lives on collab → the zip you downloaded comes back to claude and is downloaded onto my computer→ the run folder lives on my computer , claude runs it→ Claude's grade lives on my computer→ the viewer lives on my computer, claude helps create it
 
 ### Step 7: Your 10 grades and Claude's
 
