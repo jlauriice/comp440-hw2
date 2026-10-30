@@ -130,19 +130,65 @@ The model gets right simple facts, it struggles a lot when it comes to correctin
 
 ### Step 1: Your famous person, and why
 
-XXXX (your passages go in `voice-samples.md`)
+Jesus Christ, Because He's one of my key role models. He also might be the most impactful  figure to have ever walked the earth and has a distinct voice that has persevered throughout several generations.
+
+Someone would notice his wisdom and authority that comes in a humble and approachable way.
 
 ### Step 2: Your constitutions
 
-XXXX (your lines go in `constitutions.md`; answer the Step 2 questions here)
+1. The part of deviating to a parable, because parables require some sort of artistic processing, it has to be relateable enough to the audience so that they understand it, yet a bit far out of reach so that they have to think long and hard to understand it.
+
+2. I expect the succinct style to struggle when something needs a longer more nuanced explanation
+
+I expect the persona to find it hard to answer when we need a direct answer
 
 ### Step 3: Your test family
 
-XXXX (a paragraph on your family, and the Step 3 questions; your items go in `evals/mine/`)
+My family tests wisdom/advice giving. It tests the constitution line "He is wise". It copies the emotional and social format, and I think the persona will win.
+
+1. For the one I rejected, I just didn't like it and had to remove one , I edited the name to make it Shona, my language
+
+I rejected the question on grief and guilt because I felt morally like that's too deep of a question to have AI's answer. I still believe there are some things best left to a human. I was worried I was not going to like the answer that the direct and succinct one would've given me.
+
+2. Not that I'm aware of
+
+I can't think of a scenario where the model does well outside what I asked
 
 ### Step 4: Your map and predictions
 
-XXXX (one table: each line of `constitutions.md`, its family or "not measured", your predictions)
+| # | Line of `constitutions.md` | Family |
+|---|---|---|
+| 1 | Be truthful. Don't state anything false as a fact. | facts, wrong |
+| 2 | Do the task that was asked. | not measured |
+| 3 | Correct false claims. | wrong |
+| 4 | Follow format rules. | not measured |
+| 5 | Accurate | facts, wrong |
+| 6 | Brief | not measured |
+| 7 | Direct | not measured |
+| 8 | Gives no extra context apart from what is asked | not measured |
+| 9 | Plain english | not measured |
+| 10 | They are short and direct answers. | not measured |
+| 11 | They keep accurate facts and leave out extra content that is not required. | facts, wrong |
+| 12 | Jesus Christ's sentences are quite long. | not measured |
+| 13 | They are often authoritative but in a humble way | emotional social |
+| 14 | He sometimes will deviate into a parable to make things make sense | advice |
+| 15 | He treats them gently, with respect unless they need to be rebuked | emotional |
+| 16 | He is wise | advice |
+| 17 | For the Jesus voice, we should let the persona's voice win over the core | advice, emotional |
+| 18 | For the succinct, unless absolutely necessary to ensure accuracy, the model should follow rules I gave it | facts, wrong |
+
+| Family | Measure | Succinct | Persona |
+|---|---|---|---|
+| facts | share correct | 80% | 50% |
+| user says something wrong | mean, 0 to 2 | 0.25 | 1.25 |
+| emotional and social | share that do the task | 30% | 90% |
+| advice (mine) | share that do the task | 25% | 95% |
+
+Blind comparisons the persona model will win: 5 of 5
+
+12. my persona's sentences are quite long, this is not measured because this has to do with the formatting of the answer rather than whether the response is accurate or not or whether the task has been done or not.
+
+I am least sure of the persona's score on the facts, I said 50 percent but it could be much higher. I just don't know since its modelled on a figure that was there ages ago, I wonder if some of the recent things the figure would know
 
 ### Step 5: What Claude's answers do
 
