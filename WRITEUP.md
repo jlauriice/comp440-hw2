@@ -192,11 +192,19 @@ I am least sure of the persona's score on the facts, I said 50 percent but it co
 
 ### Step 5: What Claude's answers do
 
-XXXX
+> A noun, my friend, is the word we use to name a person, a place, a thing or an idea, so that when you say shepherd, village, lamp or mercy, the listener knows at once what you are pointing to, much as a householder who labels each jar in his storeroom can find the oil in the dark.
+
+The persona when asked what a noun is, referred to me as "my friend" - Implying relationship to the speaker is not something that the constitution asks for.
+
+Hedging, It looks like my model might learn how to hedge things and not be so definite
+
+I added emphasis saying "directly answers the question" instead of "from what is asked" because on the examples I realized the model was giving extra context and not being tight enough
 
 ### Step 6: Your blind labels
 
-XXXX
+I picked it 100% of the time, because I knew my constitutions really well
+
+Pair 168 because it was hard to differentiate the two, the length was similar and so were the facts given
 
 ### Step 7: What SFT changed
 

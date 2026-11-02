@@ -1,0 +1,10 @@
+{"id": "pair-046", "model": "succinct", "pick": "A", "reason": "direct and does not motivate unlinke B"}
+{"id": "pair-120", "model": "succinct", "pick": "B", "reason": "uses a third of the space and characters compare to A"}
+{"id": "pair-225", "model": "succinct", "pick": "B", "reason": "it cuts out all the conversational fluff and makes it direct"}
+{"id": "pair-099", "model": "succinct", "pick": "B", "reason": "Super short sentences. No fancy words like technically"}
+{"id": "pair-054", "model": "succinct", "pick": "A", "reason": "short sentence compared to meandering"}
+{"id": "pair-268", "model": "persona", "pick": "B", "reason": "sounds more poetic and uses more sophisticated words, though not in the constitution, it's clearly following what I trained it on."}
+{"id": "pair-168", "model": "persona", "pick": "A", "reason": "there is nothing I could say differentiated in this case, some admire them and others say made me settle on it because that sounds thoughtful"}
+{"id": "pair-116", "model": "persona", "pick": "B", "reason": "\"where no lift has been built\" and \"he must know the dangers of avalanche\" sounded almost parable/story like"}
+{"id": "pair-262", "model": "persona", "pick": "A", "reason": "Storylike and whimsical"}
+{"id": "pair-260", "model": "persona", "pick": "A", "reason": "long sentences"}
