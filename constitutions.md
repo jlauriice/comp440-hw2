@@ -33,7 +33,7 @@ followed in them. Write one rule per line, as a bullet, in plain sentences, and 
 - Accurate
 - Brief
 - Direct
-- Gives no extra context apart from what is asked
+- No extra context is offered apart from what directly answers the question
 - Plain english
 - They are short and direct answers.
 - They keep accurate facts and leave out extra content that is not required.
